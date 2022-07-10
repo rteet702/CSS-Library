@@ -8,105 +8,42 @@
 }
 
 body {
-    background-color: white !important;
+    background-color: rgb(75, 75, 75) !important;
 }
 
 /* Basic Styles */
 
 .container {
-    width: 80vw;
-    height: 2000px;
+    width: 100vw;
     margin: 0px auto;
 }
 
 .nav-bar {
-    width: 100%;
-    height: 60px;
-    background-color: gray;
-    padding: 10px;
-    /* border: 1px solid white; */
+    width: 100vw;
+    height: 30px;
+    background-color: rgb( 50, 50, 50);
+    border: 1px solid white;
 }
 
 .flex-enable {
     display: flex;
-}
-
-.nav-flex {
-    display: flex;
     align-items: center;
-    justify-content: space-around;
-}
-
-.maincontent {
-    margin-top: 20px;
-}
-
-#s_bar {
-    width: 40%;
-    height: 30px;
+    justify-content: center;
 }
 
 .btn {
-    width: 70px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 
     color: white;
     background-color: darkcyan;
-    border: 3px solid black;
 
-    box-shadow: 5px 5px black;
-}
-
-.btn-likes {
-    width: 80%;
-    height: 50px;
-
-    color: white;
-    background-color: khaki;
-    border: 3px solid black;
-
-    box-shadow: 5px 5px black;
-}
-
-#add_def {
-    width: 80%;
-    height: 50px;
-
-    font-size: 20px;
-    color: white;
-    background-color: lightgreen;
-    border: 3px solid black;
-
-    box-shadow: 5px 5px black;
-}
-
-.definition {
-    width: 80%;
-    margin: 0px auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    height: 250px;
-    border: 3px solid black;
-}
-
-.panel {
-    width: 90%;
-    margin: 0px auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 20px;
-    height: 200px;
-    border: 3px solid black;
-}
-
-.definition h2 {
-    font-size: 40px;
-    font-weight: bold;
+    border-radius: 50%;
 }
 
 .col {
-    width: 100%;
-    margin: 10px;
+    margin: 40px;
+    padding: 40px;
 }
 
 .row {
@@ -120,25 +57,4 @@ body {
 
 .flex-secondary {
     flex: 1;
-}
-
-.flex-def {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-
-/* Simple Stylings */
-
-.search-result {
-    height: 200px;
-}
-
-.center {
-    text-align: center;
-}
-
-.italic {
-    font-style: italic;
 }
